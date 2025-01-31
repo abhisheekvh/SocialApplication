@@ -1,0 +1,6 @@
+@SocialApplication_HostAddress = http://localhost:5197
+
+GET {{SocialApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
