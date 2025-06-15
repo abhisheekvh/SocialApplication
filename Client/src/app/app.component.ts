@@ -4,10 +4,11 @@ import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { error } from 'console';
 import { response } from 'express';
+import { NavComponent } from "./nav/nav.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NgFor],
+  imports: [RouterOutlet, NgFor, NavComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
